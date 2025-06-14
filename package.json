@@ -9,8 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "test": "vitest",
-    "cy:run": "cypress run",
-    "commitlint": "commitlint --from=HEAD~1 --to=HEAD"
+    "cy:run": "cypress run"
   },
   "dependencies": {
     "nuxt": "^3.17.5",
@@ -18,11 +17,9 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.1",
     "@vitejs/plugin-vue": "^5.2.4",
     "@vue/test-utils": "^2.4.6",
     "cypress": "^14.4.1",
-    "husky": "^9.1.7",
     "jsdom": "^26.1.0",
     "vitest": "^3.2.3"
   }
