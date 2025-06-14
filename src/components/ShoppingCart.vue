@@ -22,7 +22,7 @@ interface Item {
 
 const items = ref<Item[]>([
   { id: 1, name: 'Jabłko', quantity: 2 },
-  { id: 2, name: 'Pomarańcza', quantity: 3 },
+//   { id: 2, name: 'Pomarańcza', quantity: 3 },
 ])
 
 const totalItems = computed(() =>
