@@ -1,5 +1,6 @@
 <template>
   <div ref="page">
+    <nav class="h-14 w-full bg-orange-600" />
     <NuxtPage />
   </div>
 </template>
