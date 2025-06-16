@@ -22,6 +22,9 @@ jobs:
       - name: 📦 Instaluj zależności
         run: npm install
 
+      - name: 🧹 Lintuj kod (ESLint)
+        run: npm run lint
+
       - name: 🔬 Uruchom testy Vitest
         run: npm run test
 
