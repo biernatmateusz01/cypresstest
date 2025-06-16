@@ -17,6 +17,7 @@ export default [
         project: './tsconfig.json',
         ecmaVersion: 'latest',
         sourceType: 'module',
+        project: './tsconfig.eslint.json',
       },
     },
     plugins: {

@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "pages/**/*.vue",
+    "tests/**/*.ts",
+    "cypress/**/*.ts",
+    "nuxt.config.ts"
+  ]
+}
